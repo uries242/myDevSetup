@@ -24,5 +24,10 @@ brew install --cask docker
 echo "Installing Git..."
 brew install git
 
-echo "Installation complete."
+echo "Adding write permissions to script..."
+chmod +x myDevSetup.sh
+
+echo "Your all set! Your New Dev Setup is complete!"
+
+
 
